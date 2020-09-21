@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e32007b1-0f86-4e47-b649-fdd1afc7ddcd" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lang_switch_on</find>
+      <find>notie</find>
+      <find>bot</find>
+      <find>notie-alert-inner</find>
+      <find>nickname</find>
+      <find>'login</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hfaHl6nG3i5HUCB2D8mncAvWaC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\PHPTutorial\WWW\tp5\public\static\home" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\tp5" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\tp5\public" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\tp5\public\img" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\tpl\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\phpstudy\WWW\tp5\application\admin\view\access" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\tp5\application" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\tp5\public\static" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\tp5\public\img" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\tpl" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e32007b1-0f86-4e47-b649-fdd1afc7ddcd" name="默认的" comment="" />
+      <created>1585117496217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585117496217</updated>
+      <workItem from="1585117497963" duration="10163000" />
+      <workItem from="1585131302456" duration="307000" />
+      <workItem from="1585132078391" duration="1038000" />
+      <workItem from="1585133333192" duration="50000" />
+      <workItem from="1585133414301" duration="142000" />
+      <workItem from="1585133608675" duration="1454000" />
+      <workItem from="1585534039086" duration="72923000" />
+      <workItem from="1586223627696" duration="89971000" />
+      <workItem from="1586745634659" duration="21108000" />
+      <workItem from="1587347792530" duration="48965000" />
+      <workItem from="1587633737757" duration="2051000" />
+      <workItem from="1587692244720" duration="599000" />
+      <workItem from="1587787245423" duration="7141000" />
+      <workItem from="1587866812687" duration="4285000" />
+      <workItem from="1587958759546" duration="1934000" />
+      <workItem from="1588039088832" duration="4000" />
+      <workItem from="1588039132100" duration="704000" />
+      <workItem from="1588040980070" duration="596000" />
+      <workItem from="1590485889374" duration="1038000" />
+      <workItem from="1590488745965" duration="172000" />
+      <workItem from="1591064498311" duration="595000" />
+      <workItem from="1591083022463" duration="15000" />
+      <workItem from="1591261187332" duration="40000" />
+      <workItem from="1591262408946" duration="21000" />
+      <workItem from="1591262595827" duration="22000" />
+      <workItem from="1591262773732" duration="144000" />
+      <workItem from="1591262955766" duration="282000" />
+      <workItem from="1591263285810" duration="248000" />
+      <workItem from="1591263585019" duration="9651000" />
+      <workItem from="1591580966376" duration="1462000" />
+      <workItem from="1591668914691" duration="4344000" />
+      <workItem from="1592185857747" duration="3647000" />
+      <workItem from="1592791097045" duration="1794000" />
+      <workItem from="1593497389255" duration="117000" />
+      <workItem from="1594002414028" duration="1174000" />
+      <workItem from="1594005268797" duration="598000" />
+      <workItem from="1594868997302" duration="599000" />
+      <workItem from="1600238212648" duration="404000" />
+      <workItem from="1600238672588" duration="1241000" />
+      <workItem from="1600239964360" duration="83000" />
+      <workItem from="1600240080216" duration="66000" />
+      <workItem from="1600240191755" duration="5725000" />
+      <workItem from="1600308993136" duration="2343000" />
+      <workItem from="1600313418063" duration="729000" />
+      <workItem from="1600315094605" duration="14793000" />
+      <workItem from="1600404533733" duration="662000" />
+      <workItem from="1600405279053" duration="1382000" />
+      <workItem from="1600654132251" duration="604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="26" key="#Updates" timestamp="1600404838405">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="26" key="#Updates/0.0.1366.728@0.0.1366.728" timestamp="1600404838405" />
+    <state x="114" y="19" key="SettingsEditor" timestamp="1600406076154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="114" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600406076154" />
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1600405285615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600405285615" />
+  </component>
+</project>

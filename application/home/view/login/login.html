@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{:lang('home_logo_text')}</title>
+	<script src="../../../../public/static/js/jquery-1.11.0.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../../../public/static/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="../../../../public/static/css/message.css">
+	<script src="../../../../public/static/js/message.js"></script>
+
+	<link rel="stylesheet" href="../../../../public/static/home/login/css/style.css">
+
+	<script src="../../../../public/static/home/login/js/form.js"></script>
+
+</head>
+<body>
+
+<div class="form" style="position:relative">
+
+	<!--注册表单-->
+	<div class="form_register" style="position:absolute; height: 0px;">
+		<form action=""  id="register">
+			<h1>{:lang('home_register_text')}</h1>
+			<div class="form_item">
+				<input type="text" name="username" id="username"  class="text_message" onblur="usererror()" placeholder="{:lang('home_username_register_text')}" required >
+			</div>
+			<div class="form_item">
+				<input type="password" name="password" id="password" class="text_pwd" onblur="pwderror()"  placeholder="{:lang('home_pwd_mes_text')}" required>
+			</div>
+			<div class="form_item">
+				<input type="email" name="email" id="email"  class="email_message"  onblur="emailerror()"  placeholder="{:lang('home_email_register_text')}" required>
+			</div>
+			<div class="form_item">
+				<input type="text" name="tel" id="tel"  class="tel_message" onblur="telerror()" placeholder="{:lang('home_tel_register_text')}" required>
+			</div>
+			<div class="form_item">
+				<input type="text" name="idCard" id="idCard"  class="idCard_message" onblur="idCarderror()" placeholder="{:lang('home_idCard_register_text')}" required>
+			</div>
+			<div class="form_item">
+				<input type="text" name="address" id="address"  class="address_message"  placeholder="{:lang('home_address_register_text')}" required>
+			</div>
+			<div class="form_item">
+				<input type="button" id="reg" value="{:lang('home_register_btn_text')}">
+			</div>
+		</form>
+		<div class="info">{:lang('home_username_yes_text')}<span class="switch login_Btn">{:lang('home_button_text')}</span></div>
+	</div>
+
+	<!--登录表单-->
+	<div class="form_login" style="height:422px;">
+
+		<form action="" id="frm" >
+			<h1>{:lang('home_logo_text')}</h1>
+			<div class="form_item">
+				<input type="text" name="username" id="username"  class="text_message"  placeholder="{:lang('home_username_mes_text')}" required>
+			</div>
+			<div class="form_item">
+				<input type="password" name="password" id="password" class="text_pwd"    placeholder="{:lang('home_pwd_mes_text')}" required>
+			</div>
+			<div class="form_item">
+				<input type="button" id="submit" value="{:lang('home_button_text')}">
+			</div>
+		</form>
+		<div class="info">{:lang('home_username_no_text')}<span class="switch register_Btn">{:lang('home_register_btn_text')}</span></div>
+
+	</div>
+
+</div>
+
+<script type="text/javascript">
+
+	$(function (){
+
+		//登录
+		$("#submit").on('click',function () {
+			$.ajax({
+				type:'post',
+				url:"{:url('home/Login/login')}",
+				data:$("#frm").serialize(),
+				dataType:'json',
+				success:function (data) {
+					
+					switch (data.status) {
+						case 1:
+							$.message({
+								message:data.message,
+								type:'success',
+							});
+
+							setTimeout('url()',2500 );
+							break;
+						case 0:
+							$.message({
+								message:data.message,
+								type:'error'
+							});
+							break;
+						case -1:
+							$.message({
+								message:data.message,
+								type:'warning'
+							});
+
+							window.location.back();
+						
+					}
+				}
+
+			});
+
+		});
+
+		//注册
+		$("#reg").on('click',function () {
+
+				$.ajax({
+					type:'post',
+					url:"{:url('home/Login/register')}",
+					data:$("#register").serialize(),
+					dataType:'json',
+					success:function (data) {
+						switch (data.status) {
+							case 1:
+								$.message({
+									message:data.message,
+									type:'success',
+								});
+								//$(location).attr('href', "{:url('admin/index/index')}");
+
+								setTimeout('window.location = "{:url('home/login/login')}"',2500 );
+								break;
+							case 0:
+								$.message({
+									message:data.message,
+									type:'error'
+								});
+								break;
+							case -1:
+								$.message({
+									message:data.message,
+									type:'warning'
+								});
+
+								//window.location.back();
+
+						}
+					}
+
+				});
+
+			//alert(1);
+
+
+		});
+
+	});
+
+	//登录成功跳转
+	function url(){
+		window.location = "{:url('home/index/index')}";
+	}
+
+
+
+
+
+
+
+
+
+	//注册 ————验证用户名称
+function usererror()
+{
+	$username=$(".text_message").val();
+	if($username=="" || $username.length < 2  || $username.length > 18 ){
+		$.message({
+			message:"{:lang('home_username_format')}",
+			type:'warning',
+
+		});
+	}
+
+}
+//注册 ————验证密码
+	function pwderror()
+	{
+		$pwd=$(".text_pwd").val();
+		if($pwd=="" || $pwd.length < 6  || $pwd.length > 18 ){
+			$.message({
+				message:"{:lang('home_pwd_format')}",
+				type:'warning'
+			});
+		}
+
+	}
+
+	//注册 ————验证邮箱
+	function emailerror()
+	{
+		$email_message=$(".email_message").val();
+		var reg = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+		if(!reg.test($email_message)){
+			$.message({
+				message:"{:lang('home_email_register_mes')}",
+				type:'warning'
+			});
+		}
+
+
+	}
+	//注册 ————验证手机号
+	function telerror()
+	{
+		$tel_message=$(".tel_message").val();
+		var pattern = /^1[34578]\d{9}$/;
+		if(!pattern.test($tel_message)  ){
+			$.message({
+				message:"{:lang('home_tel_register_mes')}",
+				type:'warning'
+			});
+		}
+
+	}
+	//注册 ————验证身份
+	function idCarderror()
+	{
+		$idCard=$(".idCard_message").val();
+		var pattern = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+		if(!pattern.test($idCard)  ){
+			$.message({
+				message:"{:lang('home_idCard_register_mes')}",
+				type:'warning'
+			});
+		}
+
+	}
+
+
+
+	/*var t=2;//设定跳转的时间
+	setInterval("url()",1000); //启动1秒定时
+	function url(){
+
+		if(t==0){
+			window.location = "{:url('admin/index/index')}";
+			//location="http://www.daimajiayuan.com/sitejs-17251-1.html"; //#设定跳转的链接地址
+		}
+		document.getElementById('show').innerHTML=""+t+"秒后跳转"; // 显示倒计时
+		t--; // 计数器递减
+
+	}
+*/
+
+
+</script>
+</body>
+</html>

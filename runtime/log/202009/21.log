@@ -1,0 +1,282 @@
+---------------------------------------------------------------
+
+[2020-09-21T10:09:13+08:00] 127.0.0.1 GET localhost2/favicon.ico
+[运行时间：0.050588s] [吞吐率：19.77req/s] [内存消耗：1,627.98kb] [文件加载：50]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-09-21T10:29:54+08:00] 127.0.0.1 GET localhost2/admin
+[运行时间：0.372318s] [吞吐率：2.69req/s] [内存消耗：2,330.30kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Index.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Login.php
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\application\admin\\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpstudy\WWW\tp5\thinkphp\tpl/error.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2020-09-21T10:29:54+08:00] 127.0.0.1 GET localhost2/favicon.ico
+[运行时间：0.034346s] [吞吐率：29.12req/s] [内存消耗：1,627.91kb] [文件加载：50]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-09-21T10:29:59+08:00] 127.0.0.1 GET localhost2/admin/login/login.html
+[运行时间：0.070889s] [吞吐率：14.11req/s] [内存消耗：2,359.16kb] [文件加载：73]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Index.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Login.php
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\application\admin\\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0s4rfd2h8u5t3lto0bm18iqiu3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost2/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpstudy\WWW\tp5\application\admin\view\login\login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+
+[2020-09-21T10:29:59+08:00] 127.0.0.1 GET localhost2/public/static/admin/login/css/normalize.css
+[运行时间：0.037391s] [吞吐率：26.74req/s] [内存消耗：1,628.36kb] [文件加载：50]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-09-21T10:30:05+08:00] 127.0.0.1 POST localhost2/admin/login/login.html
+[运行时间：0.468657s] [吞吐率：2.13req/s] [内存消耗：3,464.98kb] [文件加载：75]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Index.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Login.php
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\application\admin\\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0s4rfd2h8u5t3lto0bm18iqiu3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost2/admin/login/login.html',
+  'origin' => 'http://localhost2',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '33',
+  'connection' => 'close',
+  'host' => 'localhost2',
+)
+[ info ] [ PARAM ] array (
+  'login_name' => 'admin',
+  'login_pwd' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.098440s ] mysql:host=127.0.0.1;port=3306;dbname=tp5db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.183727s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `login_name` = 'admin'  AND `password` = '14e1b600b1fd579f47433b88e8d85291' LIMIT 1 [ RunTime:0.060039s ]
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `last_login_time` = '2020-09-21 10:30:05' , `count` = 113 , `last_login_ip` = '127.0.0.1'  WHERE  `login_name` = 'admin'  AND `id` = 1 [ RunTime:0.025426s ]
+---------------------------------------------------------------
+
+[2020-09-21T10:30:08+08:00] 127.0.0.1 GET localhost2/admin/index/index.html
+[运行时间：0.065351s] [吞吐率：15.30req/s] [内存消耗：2,321.40kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Index.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Login.php
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\application\admin\\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0s4rfd2h8u5t3lto0bm18iqiu3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost2/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpstudy\WWW\tp5\application\admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+
+[2020-09-21T10:30:08+08:00] 127.0.0.1 GET localhost2/admin/index/welcome.html
+[运行时间：0.077124s] [吞吐率：12.97req/s] [内存消耗：2,293.70kb] [文件加载：73]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Index.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Login.php
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\application\admin\\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0s4rfd2h8u5t3lto0bm18iqiu3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost2/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost2',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-09-21T10:30:14+08:00] 127.0.0.1 GET localhost2/admin/access/rolelist.html
+[运行时间：0.265568s] [吞吐率：3.77req/s] [内存消耗：4,040.25kb] [文件加载：86]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Index.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Login.php
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\application\admin\\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0s4rfd2h8u5t3lto0bm18iqiu3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost2/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010920s ] mysql:host=127.0.0.1;port=3306;dbname=tp5db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.001630s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_access` [ RunTime:0.034266s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_access` WHERE  ( uid=1 ) [ RunTime:0.006327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_group` [ RunTime:0.027806s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_group` WHERE  ( id=1 ) LIMIT 1 [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_access` WHERE  ( uid=2 ) [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_group` WHERE  ( id=2 ) LIMIT 1 [ RunTime:0.000893s ]
+---------------------------------------------------------------
+
+[2020-09-21T10:30:15+08:00] 127.0.0.1 GET localhost2/admin/access/userlist.html
+[运行时间：0.090033s] [吞吐率：11.11req/s] [内存消耗：4,079.87kb] [文件加载：87]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Index.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Login.php
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\application\admin\\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0s4rfd2h8u5t3lto0bm18iqiu3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost2/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\WWW\tp5\application\admin\view\access\userList.html [ array (
+  0 => 'userList',
+  1 => 'title',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001295s ] mysql:host=127.0.0.1;port=3306;dbname=tp5db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_access` [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_access` WHERE  ( uid=1 ) [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_group` [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_group` WHERE  ( id=1 ) LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_access` WHERE  ( uid=2 ) [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_group` WHERE  ( id=2 ) LIMIT 1 [ RunTime:0.000548s ]
+---------------------------------------------------------------
+
+[2020-09-21T12:46:12+08:00] 127.0.0.1 GET localhost2/admin/index/index.html
+[运行时间：0.077276s] [吞吐率：12.94req/s] [内存消耗：2,331.18kb] [文件加载：72]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Index.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Login.php
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\application\admin\\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost2/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpstudy\WWW\tp5\thinkphp\tpl/error.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2020-09-21T12:46:18+08:00] 127.0.0.1 GET localhost2/admin/login/login.html
+[运行时间：0.053713s] [吞吐率：18.62req/s] [内存消耗：2,358.92kb] [文件加载：73]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Index.php
+[ info ] [ LANG ] application/admin/lang/zh-cn/Login.php
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\application\admin\\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=41koja1vk8gg2v3tvhgejd39h6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost2/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpstudy\WWW\tp5\application\admin\view\login\login.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+
+[2020-09-21T12:46:18+08:00] 127.0.0.1 GET localhost2/public/static/admin/login/css/normalize.css
+[运行时间：0.047210s] [吞吐率：21.18req/s] [内存消耗：1,628.36kb] [文件加载：50]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
